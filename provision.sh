@@ -2,6 +2,16 @@
 # vim: ts=2: bg=dark expandtab
 #
 
+##################################################################
+#
+# to use this to provision weewx3 using python2, edit as follows:
+#     use 'python' not 'python3' everywhere below
+#     do not checkout the 'python3' branch of weewx below
+#
+# note: the --no-prompt below means it'll use the Simulator driver
+#
+##################################################################
+
 #------- prerequisites ---------
 apt-get install -y python3-dev python3-pip python3-configobj python3-serial python3-pil python3-usb
 pip3 install pyephem
