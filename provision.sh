@@ -27,7 +27,7 @@ cd /var/tmp
 apt-get install -y git
 git clone https://github.com/weewx/weewx.git
 cd weewx
-git checkout python3
+git checkout development    #### was 'python3' but that is merged to development now
 
 #------- install weewx ---------
 python3 setup.py build
